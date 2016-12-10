@@ -1,9 +1,37 @@
 /* add your CSS here */
 *{
 	margin: 0;
+	margin-top: 10px;
 	padding: 0;
 }
 body{
+	width: 330px;
+	margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 4px 8px 10px rgba(0,0,0,0.4);
+}
+.content{
 	width: 300px;
 	margin: 0 auto;
+	padding: 5px 0px 5px 0px;
+}
+#specie-info{
+	width: 300px;
+	margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 5px;
+}
+#info{
+	width: 280px;
+	margin: 0 auto;
+	margin-bottom: 5px; 
+}
+.italic-text{
+	font-style: italic;
+}
+.list-specie{
+	list-style: none;
+}
+.list-specie li span{
+	font-weight: bold;
 }
